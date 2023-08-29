@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position--1</title>
+    <style>
+        p {
+    margin: 0px;
+    padding:3px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+#div-before, #div-after {
+    background-color: #8888dd;
+
+}
+
+#div-before{
+    position: relative;
+}
+
+#div-1{
+    padding:10px;
+    background-color: black;
+}
+
+#div-1-a{
+    background-color: red;
+    position: absolute;
+    top:0;
+    right:0;
+    width: 200px;
+}
+
+#div-1-b{
+    background-color: green;
+}
+
+/* ------------------------------------------------------- */
+
+
+    </style>
+</head>
+<body>
+    <div id="div-before">
+        <p>id=div-before</p>
+        <div id="div-1">
+            <p>div-1</p>
+            <div id="div-1-a">
+                <p>id=div-1-a</p>
+                <p>balasbal balasbal balasbalbalasbalbalasbalbalasbalbalasbalbalasbal </p>
+            </div>
+
+            <div id="div-1-b">
+                <p>id=div-1-b</p>
+                <p>balasbal balasbal balasbalbalasbalbalasbalbalasbalbalasbalbalasbal </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="div-after">
+        <p>id=div-after</p>
+    </div>
+
+
+    <!-- ------------------------------------------------ -->
+
+    
+
+
+
+</body>
+</html>

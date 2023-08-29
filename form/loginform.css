@@ -1,0 +1,184 @@
+.form2 {
+
+    width: 420px;
+    height: 450px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+ 
+}
+
+.row {
+    width: 400px;
+    margin: 10px 0px;
+    display: flex;
+    padding: 5px 0;
+    /* background-color: rgb(244, 82, 82); */
+    border: 1px solid brown;
+
+
+}
+
+.title {
+    color: #013d1f;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.row .fa {
+    display: flex;
+    padding: 9px;
+    margin-right: 0px;
+    /* background-color: gold; */
+    width: 20px;
+    border-right: 1px solid rgb(104, 104, 104);
+    /* opacity: 0.7; */
+    align-items: center;
+    /* canh giữa icon theo chiều dọc */
+    justify-content: center;
+    /* canh giữa icon theo chiều ngang */
+    margin-right: 0px;
+
+}
+
+
+
+.row input {
+    border: none;
+    height: 20px;
+    padding: 9px;
+    width: 343px;
+    outline: none;
+
+}
+
+.rowleft {
+    padding: 5px;
+    width: 195px;
+    /* background-color: aquamarine; */
+    margin-right: 5px;
+
+}
+
+.rowleft .input-year input {
+    width: 36px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+
+
+.rowright {
+    padding: 5px;
+    width: 190px
+}
+
+.rowright .gender-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    height: 50px;
+
+
+}
+
+.rowright .gender-container input[type="radio"] {
+    display: none;
+
+}
+
+.rowright .gender-container label {
+    position: relative;
+
+    font-size: 18px;
+    border: 1px solid #01cc65;
+    padding: 5px;
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-content: center;
+
+
+
+}
+
+
+
+
+.rowright .gender-container input[type="radio"]:checked+label {
+    background-color: #01cc65;
+    color: white;
+}
+
+
+
+
+
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.input-container {
+    position: relative;
+    width: 190px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.input-container input {
+    position: absolute;
+    margin: 0;
+
+    display: none;
+}
+
+.input-container .creditcard-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #01cc65;
+
+}
+
+#a,
+#b {
+    
+    border: none;
+}
+
+
+.input-container input[type="radio"]:checked+.creditcard-title {
+    background-color: #01cc65;
+}
+
+.last-rowleft, .last-rowright {
+    
+    display: flex;
+}
+
+.last-rowleft input {
+    width: 135px;
+    /* border: 1px solid; */
+    height: 20px;
+    margin-right: 5px;
+}
+
+.last-rowright input {
+    width:80px; background-color: antiquewhite;border: 1px solid;
+}
+
+.last-rowright input:last-child{
+    width: 48px;
+}
+
+.last-rowright input:first-child{
+    width:105px;
+}
+

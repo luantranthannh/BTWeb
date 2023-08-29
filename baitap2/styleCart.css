@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #ffffcc;
+    font-size: 12px;
+
+}
+
+nav {
+    background-color:rgb(247, 168, 23);
+    text-align: center;
+    width: 100%;
+   
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 10px 5px;
+    width: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+nav ul li a:hover {
+    background-color: #2ecc71;
+    border-radius: 3px;
+}
+
+
+nav .fa{
+    margin-right: 5px;
+}
+
+
+nav ul li input{
+    margin-top:2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 20px;
+    font-size: 11px;
+}
+
+nav ul li button{
+    border: 0px none;
+    border-radius: 2px;
+    margin-top:1px;
+    padding:4px;
+    font-size: 12px;
+    color:#555555;
+}
+
+nav ul li button:hover{
+    background-color: #2ecc71;
+}
+
+
+table{
+    position: relative;
+    top:15px;
+    margin: auto;
+    width:70%;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    justify-content: center;
+    border-collapse: collapse;
+    text-align: center;  
+}
+
+img {
+    width: 60px;
+}
+
+
+th{
+    padding: 5px;
+    color:#fff;
+    background:#fda053;
+    font-weight: 500;
+}
+
+td{
+    padding:10px 5px;
+}
+
+table tr td input{
+    width: 30px;
+    height: 12px;
+    padding: 3px;   
+}
+
+table tr td button{
+    width: auto;
+    height: 25px;
+    padding: 3px 5px;
+    border: 0px none;
+    border-radius: 3px;
+    color:white;
+    background-color: #fda053;    
+}
+
+table tr td button:hover{
+    background-color: #2ecc71;
+    /* border-bottom: 2px solid #000000; */
+    
+}
+
+table tr td button .fa{
+    margin-right: 5px;   
+}
+
+
+
+
+
+/* -------------------------------------------------------------------- */
+

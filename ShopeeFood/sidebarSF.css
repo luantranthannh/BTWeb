@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafab3;
+    font-size: 13px;
+
+}
+
+.sidebar {
+    background-color:white;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar__list__menu {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 15px 10px;
+}
+.side-bar-small{
+    align-items: center;
+}
+.side-bar-small a{
+    
+    text-decoration: none;
+    margin: 15px 5px;
+    width: auto;
+    color: rgb(255, 98, 55);
+    padding: 3px 5px ;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+
+
+#giaotannoi{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    
+}
+
+
+.side-bar-small a:hover {
+    border-bottom: 1px solid orangered;
+    color: orangered;
+    
+}
+
+/* ---------------------------------------------------------------------- */
+

@@ -1,0 +1,93 @@
+*{
+   margin: 0;
+   padding:0;
+    
+}
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 13px;
+    
+}
+
+body div{
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    min-height: 100vh; /* Độ cao tối thiểu để bảo đảm canh giữa */
+}
+
+
+/* form 1 */
+table {
+    /* font-size: 15px; */
+    background-color: rgb(5, 99, 97);
+    padding:20px;
+    
+}
+
+.title {
+    width: 90px;
+    color: #fff;
+}
+
+.icon-cell {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+td input {
+    border-radius: 0;
+    border: none;
+    height: 25px;
+    border: 1px solid #ccc;
+   
+}
+
+td input::placeholder {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(10, 10, 10);
+    opacity: 0.6;
+}
+
+.icon-cell .fa {
+    padding: 7px;
+    background-color: rgb(248, 79, 18);
+    width: 13px;
+   
+}
+
+#gender{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+#checkbox{
+    text-align: center;
+    color: #fff;
+    /* canh giữa theo chiều ngang */
+}
+
+#checkbox td input{
+    vertical-align: middle;
+}
+
+#submit{
+    text-align: end;
+
+}
+#submit td input{
+    width: 55px;;
+    border-radius: 1px;
+    transition: transform 0.4s;
+}
+#submit td input:hover{
+    transform: scale(1.02,1.02);
+    background-color: aqua;
+}
+
+/* form2 */
+

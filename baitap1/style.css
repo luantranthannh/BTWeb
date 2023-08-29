@@ -1,0 +1,20 @@
+table {
+    border-width: 2px;
+    background-color: aqua;
+    width:600px;
+    text-align: center;
+    
+}
+
+#pink{
+    background-color: pink;
+
+}
+
+#orange{
+    background-color: rgb(245, 138, 8);
+
+}
+#green{
+    background-color: green;
+}

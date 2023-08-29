@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    
+}
+body{
+    background-color: #8FBC8F;;
+}
+
+nav {
+
+    background-color:saddlebrown;
+    /* border khung xung quanh */
+    padding: 20px 15%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainmenu {
+    display: flex;
+    /* padding: 10px;  */
+    padding: 10px 25px;
+
+}
+
+nav>ul li {
+    /* bỏ dấu chấm đầu môi tiêu đề */
+    list-style-type: none;
+    /* màu border cho các mục */
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    position: relative;
+
+}
+
+nav>ul li a {
+
+    display: block;
+    /* top-bottom:0, left-right:25 */
+    padding: 5px 15px;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+
+nav ul li:first-child {
+    border-left: none;
+    /* bỏ đường kè trái của phần tử đầu tiên */
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li:hover {
+    background-color: #654321;
+
+}
+
+.submenu1,
+.submenu2,
+.submenu3 {
+    position: absolute;
+    display: none;
+    left: 100%;
+
+
+}
+.submenu1 {
+
+    left: 0px;
+    min-width: 250px;
+    display: none;
+    /* padding: 0; */
+}
+.submenu2 {
+
+    top: 0;
+    min-width: 250px;
+
+}
+.submenu3 {
+
+    top: 0;
+    min-width: 150px;
+}
+
+
+
+.mainmenu li:hover>.submenu1 {
+    display: block;
+}
+
+.mainmenu li:hover>.submenu2 {
+    display: block;
+}
+
+.mainmenu li:hover>.submenu3 {
+    display: block;
+}
+
+
+
+input {
+    padding: 0px;
+    width: 200px;
+    height: 18px;
+    border: 1px solid black;
+}
+
+input:hover {
+    border: 1px solid black;
+}
