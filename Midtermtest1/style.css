@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 30px;
+    right: 30px;
+
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.navbar nav ul {
+    padding: 4px 10px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 40px;
+    font-size: 13px;
+}
+
+.navbar nav ul li {
+    border-right: 1px solid gray;
+    list-style: none;
+
+    padding: 2px;
+    margin: auto;
+
+}
+
+
+
+.navbar nav ul:hover {
+    box-shadow: 2px 2px 1px 1px #888888;
+}
+
+.navbar nav ul li:last-child {
+    border-right: none;
+}
+
+
+
+.navbar nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar nav ul li input {
+    outline: none;
+    border: none;
+
+}
+
+.navbar nav ul li i {
+    background-color: rgb(252, 1, 97);
+    padding: 5px;
+    border-radius: 50%;
+    ;
+
+}
+
+
+.last-navbar {
+    display: flex;
+    padding: 10px;
+
+}
+
+
+input {
+    border: none;
+    outline: none;
+}
+
+.last-navbar #icon-global {
+    margin: 0 10px;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    padding: 5px;
+
+}
+
+
+.last-navbar p {
+    border-radius: 40px;
+    padding: 5px;
+    ;
+    font-size: 13px;
+}
+
+.last-navbar p:hover {
+    background-color: rgb(219, 219, 219);
+
+}
+
+.last-navbar .account .fa-align-justify {
+    padding: 0 7px;
+}
+
+.last-navbar .account .fa-user-circle-o {
+    padding: 0 7px 0 0;
+}
+
+
+.last-navbar i {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.last-navbar .account {
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+
+.last-navbar .account-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    top: 35px;
+    right: 0px;
+    width: 170px;
+
+
+
+}
+
+
+
+.last-navbar .account-menu a {
+    text-decoration: none;
+    padding: 3px 0;
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+
+}
+
+.last-navbar .account-menu a:hover {
+    color: black;
+}
+
+.last-navbar .account:hover .account-menu {
+    display: block;
+}
+
+
+
+/* -------------------------- */
+.list__menu {
+
+    border-top: 1px solid rgb(48, 48, 48);
+    position: fixed;
+    top: 72px;
+    left: 30px;
+    right: 30px;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.list__menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: space-around;
+    font-size: 15px;
+
+}
+
+.menu__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.list__menu ul li {
+    width: auto;
+    color: rgb(0, 4, 23);
+    font-weight: 450;
+    border-bottom: 1px solid transparent;
+    font-size: 12px;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+
+.list__menu ul li:first-child {
+    border-bottom: 2px solid rgb(252, 1, 97);
+    color: rgb(252, 1, 97);
+    background-color: #ffffff;
+}
+
+.list__menu ul li:hover {
+    border-bottom: 2px solid rgb(252, 1, 97);
+    color: rgb(252, 1, 97);
+    background-color: #ffffff;
+}
+
+
+
+#right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid black;
+
+
+}
+
+#right:hover {
+    background-color: rgb(116, 116, 116);
+
+}
+
+#right i {
+    font-size: 13px;
+    color: black;
+}
+
+
+#filter {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+}
+
+
+/*  */
+
+.server {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+    right: 15px;
+    left: 5px;
+}
+
+
+.server-item {
+
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    margin: 7px 3px;
+    width: 250px;
+    transition: transform 0.4s;
+    background-color: #fff;
+    border-radius: 10px;
+    ;
+}
+
+.server-item:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+
+
+.effect__img {
+    position: relative;
+    display: inline-block;
+
+}
+
+.img__product {
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.img__customer {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, rgba(255, 51, 15, 0.767), rgb(253, 162, 25) 50%, transparent 50%);
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+
+.img__customer:hover {
+    background-position: 0% 0%;
+}
+
+
+
+
+.order-btn {
+    position: absolute;
+    top: 77px;
+    right: 80px;
+    font-size: 11px;
+    font-weight: 520;
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: rgb(238, 29, 2);
+    color: white;
+    opacity: 0;
+    z-index: 3;
+    transition: transform 0.5s;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.effect__img:hover .order-btn {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.effect__img i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: rgb(250, 125, 9);
+
+
+}
+
+.server-item .server-content {
+    padding: 0 5px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.server-item .server-content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.server-item .server-content div p i {
+    color: rgb(255, 17, 0);
+    margin-right: 7px;
+    ;
+
+}
+
+.server-item .server-title {}

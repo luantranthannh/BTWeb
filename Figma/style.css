@@ -1,0 +1,236 @@
+body {
+  font-size: 100%;
+  margin: 0;
+}
+
+.normal-text {
+  font-size: 25px;
+  margin-top:15px;
+  font-family: "El Messiri";
+  color: #7a7a7a !important;
+}
+
+.heading-text {
+  margin-top:15px;
+  font-size: 60px;
+  font-family: "El Messiri";
+  color: black !important;
+  font-weight: bold;
+}
+
+.section {
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+#menubar {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  padding-top: 20px;
+  top: 0;
+}
+
+#menubar .menu-item {
+  display: inline;
+}
+
+#menubar .menu-item a {
+  font-size: 20px;
+  color: #7a7a7a;
+  padding: 0 2%;
+  text-decoration: none;
+  float: right;
+}
+
+#menu-logo {
+  display: inline;
+}
+
+#menu-logo .image {
+  width: 88px;
+  height: 40px;
+  display: inline-block;
+  padding: 0 2%;
+}
+
+
+#home-section {
+  background-size: contain;
+  background-image: url("./img/Home_background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 0;
+}
+
+#home-title {
+  width: fit-content;
+  position: relative;
+  top: 30%;
+  left: 60%;
+}
+
+#about-title {
+  text-align: center;
+}
+
+#about-sub-sections {
+  height: 100%;
+  padding: 0 5%;
+  position: relative;
+}
+
+.about-sub-image {
+  width: 50%;
+  height: 120%;
+  display: inline-block;
+}
+
+.about-sub-text {
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+}
+
+#about-1 {
+  width: 100%;
+  height: 40%;
+  top: 0;
+  position: relative;
+}
+
+
+
+#about-2 {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+
+#about-2 .about-sub-image {
+
+  float: right;
+}
+
+#about-2.about-sub-text {
+  text-align: right;
+}
+
+#contact-title {
+  text-align: center;
+}
+
+#contact-sub-sections {
+  width: 30%;
+  position: relative;
+  left: 35%;
+  padding: 5% 5%;
+}
+
+#contact-sub-sections p {
+  position: absolute;
+  top: 25px;
+  display: inline-block;
+  margin: 0;
+  
+}
+
+
+
+#contact-phone,
+#contact-emai,
+#contact-location {
+  position: relative;
+}
+#contact-phone .image img{
+  margin:10px;
+  width:40px;
+}
+
+#contact-phone p{
+  position: absolute;
+  top: 20px;
+  left: 65px;;
+}
+
+#contact-email .image img{
+  margin:10px;
+  width:40px;
+}
+
+#contact-email p{
+ 
+  top: 140px;
+  left: 125px;;
+}
+
+#contact-location .image img{
+  margin:10px;
+  width:40px;
+}
+
+#contact-location p{
+  position: absolute;
+  top: 20px;
+  left: 65px;;
+}
+
+
+#contact-sub-sections .image {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+#footer {
+  background-color: #5d8cff;
+  position: relative;
+  bottom: 0;
+  padding: 2% 20%;
+}
+
+#footer div {
+  color: white !important;
+}
+
+#footer-logo {
+  display: inline-block;
+}
+
+#footer-logo image {
+  width: 200px;
+  height: 100px;
+ 
+}
+
+#footer-copyright {
+  text-align: center;
+}
+
+#footer-links {
+  display: inline-block;
+  padding: 2% 0 2% 50%;
+}
+
+#footer-links p {
+  text-decoration: underline;
+}
+
+#footer-links a {
+  display: block;
+  margin:4px;
+  text-decoration: none;
+  color: white !important;
+}
