@@ -1,0 +1,92 @@
+{
+    "destinations": [
+        {
+            "id": 1,
+            "name": "Hạ Long Bay",
+            "description": "Hạ Long Bay is a UNESCO World Heritage Site located in Quang Ninh Province, Vietnam.",
+            "image": "halong.jpg",
+            "booked": 100
+        },
+        {
+            "id": 2,
+            "name": "Angkor Wat",
+            "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world.",
+            "image": "angkor.jpg",
+            
+            "booked": 50
+        },
+        {
+            "id": 3,
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "adultPrice": 600000,
+            "childPrice": 300000,
+            "booked": 75
+        }
+        
+    ],
+
+    
+    "details": [
+        {
+            "id": 1,
+            "id_destination":"T1",
+            "name": "Hạ Long Bay",
+            "mainImage": "halong-main.jpg",
+            "images": [
+                "halong-1.jpg",
+                "halong-2.jpg",
+                "halong-3.jpg"
+            ],
+            "descriptions": [
+                "Hạ Long Bay is known for its emerald waters and thousands of towering limestone islands topped with rainforests.",
+                "Visitors can enjoy boat trips, kayaking, and exploring the beautiful caves and grottoes of the bay.",
+                "The bay is home to a diverse range of marine life and is a popular destination for nature lovers."
+            ],
+            "highlight": "One of the New7Wonders of Nature, Hạ Long Bay offers breathtaking natural beauty and rich biodiversity.",
+            "adultPrice": 500000,
+            "childPrice": 250000
+        },
+        {
+            "id": 2,
+            "name": "Angkor Wat",
+            "mainImage": "angkor-main.jpg",
+            "images": [
+                "angkor-1.jpg",
+                "angkor-2.jpg",
+                "angkor-3.jpg"
+            ],
+            "descriptions": [
+                "Angkor Wat is a stunning temple complex with intricate carvings and architecture dating back to the 12th century.",
+                "Visitors can explore the ancient ruins, temples, and monuments spread across the vast archaeological site.",
+                "The site is known for its spiritual and historical significance."
+            ],
+            "highlight": "Angkor Wat is a symbol of Cambodia and an important religious site for Buddhists.",
+            "adultPrice": 400000,
+            "childPrice": 200000
+        },
+        {
+            "id": 3,
+            "name": "Machu Picchu",
+            "mainImage": "machu-main.jpg",
+            "images": [
+                "machu-1.jpg",
+                "machu-2.jpg",
+                "machu-3.jpg"
+            ],
+            "descriptions": [
+                "Machu Picchu is a well-preserved Inca citadel that offers stunning panoramic views of the surrounding mountains.",
+                "Visitors can hike the Inca Trail to reach the site or take a train to the nearby town of Aguas Calientes.",
+                "The site is a testament to the advanced engineering and architectural skills of the Inca civilization."
+            ],
+            "highlight": "Machu Picchu is a UNESCO World Heritage Site and one of the most iconic archaeological sites in the world.",
+            "adultPrice": 600000,
+            "childPrice": 300000
+        
+        }
+    ],
+    "bookings": []
+
+    
+}

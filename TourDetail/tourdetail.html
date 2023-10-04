@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+/* Bố cục sản phẩm với hai cột */
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Cột ảnh */
+.image-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Cột thông tin */
+.info-column {
+    flex: 2;
+}
+
+/* Ảnh sản phẩm lớn */
+#mainImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Định dạng thông tin sản phẩm */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Ảnh nhỏ */
+.thumbnail-images {
+    display: flex;
+    flex-direction: row; /* Hiển thị ảnh nhỏ trong một hàng ngang */
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-right: 10px; /* Tạo khoảng cách giữa các ảnh nhỏ */
+}
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="product">
+        <div class="image-column">
+            <img id="mainImage" src="" alt="Ảnh sản phẩm">
+            <div class="thumbnail-images">
+                <img class="thumbnail" src="" alt="Ảnh sản phẩm">
+                <img class="thumbnail" src="" alt="Ảnh sản phẩm">
+                <img class="thumbnail" src="" alt="Ảnh sản phẩm">
+                <img class="thumbnail" src="" alt="Ảnh sản phẩm">
+            </div>
+        </div>
+        <div class="info-column">
+            <h1 id="productName"></h1>
+            <p id="productLocation"></p>
+            <p id="productRating"></p>
+            <p id="productPrice"></p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    // Sử dụng Fetch API để lấy dữ liệu từ db.json
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(data => {
+            // Cập nhật thông tin sản phẩm trên trang HTML
+            document.getElementById("productName").textContent = data.product.name;
+            document.getElementById("productLocation").textContent = data.product.location;
+            document.getElementById("productRating").textContent = data.product.rating;
+            document.getElementById("productPrice").textContent = data.product.price;
+
+            // Cập nhật ảnh chính
+            document.getElementById("mainImage").src = data.product.mainImage;
+
+            // Cập nhật ảnh nhỏ
+            const thumbnailImages = document.querySelectorAll(".thumbnail");
+            data.product.thumbnailImages.forEach((image, index) => {
+                thumbnailImages[index].src = image;
+            });
+        })
+        .catch(error => console.error("Lỗi: " + error));
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+{
+    "user": [
+        {
+            "user_id": "U1",
+            "user_name":"tranluan",
+            "user_password":"luan123",
+            "user_email":"luan.tran@gmail.com",
+            "status": "active",
+            "role": "user"
+        },
+
+        {
+            "user_id": "U2",
+            "user_name":"hohuyen",
+            "user_password":"huyen321",
+            "user_email":"huyen.ho@gmail.com",
+            "status": "active",
+            "role": "user"
+        }
+    ],
+
+
+    "admin": [
+        {
+            "admin_id": "A1",
+            "admin_name":"yam",
+            "admin_password":"am456",
+            "admin_email":"am.y@gmail.com",
+            "status": "active",
+            "role": "admin"
+        }
+        ,
+        {
+            "admin_id": "A2",
+            "admin_name":"hongan",
+            "admin_password":"ngan789",
+            "admin_email":"ngan.ho@gmail.com",
+            "status": "active",
+            "role": "admin"
+        }
+    ],
+    
+    "destinations": [
+        {
+            "id": "D1",
+            "name": "Hạ Long Bay",
+            "description": "Hạ Long Bay is a UNESCO World Heritage Site located in Quang Ninh Province, Vietnam.",
+            "image": "halong.jpg",
+            "booked": 100
+        },
+        {
+            "id": "D2",
+            "name": "Angkor Wat",
+            "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world.",
+            "image": "angkor.jpg",
+            "booked": 50
+        },
+        {
+            "id": "D3",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D4",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        }
+        , 
+        {
+            "id": "D5",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D6",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        }, 
+
+        {
+            "id": "D7",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        }, 
+
+        
+        {
+            "id": "D8",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        }, 
+        {
+            "id": "D9",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D10",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+        {
+            "id": "D11",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D12",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+        {
+            "id": "D13",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D14",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D15",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D16",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D17",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D18",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+
+        {
+            "id": "D19",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        },
+        {
+            "id": "D20",
+            "name": "Machu Picchu",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "machu.jpg",
+            "booked": 75
+        }
+     
+    ],
+    
+
+    "tourdetail": [
+        {
+            "tour_id": "tour001",
+            "tour_name": "Panoramic scene in Ha Long Bay",
+            "destination": "Ha Long Bay, Quang Ninh ",
+            "description": "Ha Long Bay in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests. Ha Long Bay is suitable for enjoying a vacation with family, friends or colleagues. You will discover the majestic and mysterious scenes of Vietnam. Activity: rock climbing and hiking, particularly in mountainous Cat Ba National Park. Vehicle: Kayak",
+            "price_adult": "$500",
+            "price_children": "$250",
+            "rating": "5/5",
+            "image1": "https://media.istockphoto.com/id/119379231/vi/anh/b%C3%A3i-bi%E1%BB%83n-v%E1%BB%8Bnh-h%E1%BA%A1-long-vi%E1%BB%87t-nam.webp?b=1&s=612x612&w=0&k=20&c=VPTSt-iDYftQfq7FE1IUY4EXaSkjdwTjbX3lQVRSjp8=",
+            "image2":"https://cdn.pixabay.com/photo/2016/11/29/04/13/albania-1867264_1280.jpg",
+            "image3":"https://media.istockphoto.com/id/1201281530/vi/anh/phong-c%E1%BA%A3nh-v%E1%BB%8Bnh-h%E1%BA%A1-long.webp?b=1&s=612x612&w=0&k=20&c=aovYQrdp813G5qsLaAYYGL9wmxTLfmXdwx_lMQIIhdY="
+
+        }
+
+
+    ]
+}

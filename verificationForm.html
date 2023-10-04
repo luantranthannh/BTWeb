@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Volkhov:ital,wght@0,400;0,700;1,700&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Volkhov', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url(./HomePage/img/backgtound2.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Tạo overlay cho background */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        #welcomeText {
+            color: white;
+            font-size: 42px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        #logo {
+            margin: 10px 0;
+            
+            border-radius: 10px;
+            padding:10px;
+            background-color: #e7f4f6;
+        }
+
+        #verificationForm {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        #verificationForm h2 {
+            padding: 0 20px;
+            font-size: 24px;
+            color: #181E4B;
+            margin: 2px 0 16px 0;
+        }
+
+        input[type="radio"] {
+            
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        label{
+            color: #181E4B;
+            font-weight: 505;
+        }
+
+
+        button {
+            
+            padding: 8px 20px;
+            background-color: #f86649;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            
+        }
+
+        button:hover {
+            background-color: #fa5837;
+        }
+    </style>
+</head>
+
+<body>
+ 
+    <div>
+        <h1 id="welcomeText">Welcome to Travel Agency</h1>
+        <center><img id="logo" src="./image/logo.png" alt="Travel Agency Logo"></center>
+
+    </div>
+
+    <div id="verificationForm">
+        <h2>Who are they?</h2>
+        <form>
+            <input type="radio" name="role" value="admin" id="admin">
+            <label for="admin"> Admin</label>
+
+            <input type="radio" name="role" value="user" id="user">
+            <label for="user">User</label> 
+            <br><br>
+            <button type="button" onclick="redirectToPage()">OK</button>
+        </form>
+    </div>
+    <script>
+        function redirectToPage() {
+            var selectedRole = document.querySelector('input[name="role"]:checked');
+            if (selectedRole) {
+                if (selectedRole.value === "admin") {
+                    // Chuyển hướng đến trang admin
+                    window.location.href = "./Admin/admin.html";
+                } else if (selectedRole.value === "user") {
+                    // Chuyển hướng đến trang home
+                    window.location.href = "./HomePage/homepage.html";
+                }
+            } else {
+                alert("Please chose role before enter OK");
+            }
+        }
+    </script>
+</body>
+
+</html>
