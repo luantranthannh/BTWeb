@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./abcontact.css">
+
+
     <title>About-Contact</title>
 </head>
 
@@ -87,7 +89,8 @@
             </div>
 
 
-            <h1 style="padding: 50px 0; font-size: 42px; text-align: center;letter-spacing: 2px; color: white;">About Us</h1>
+            <h1 style="padding: 50px 0; font-size: 42px; text-align: center;letter-spacing: 2px; color: white;">About Us
+            </h1>
         </section>
 
 
@@ -106,7 +109,7 @@
 
                 <div class="about-us-content-row1-img">
                     <center><img src="./Group 1000001769 (1).svg" alt=""></center>
-                    
+
                 </div>
 
             </div>
@@ -114,55 +117,58 @@
             <div class="about-us-content-row2">
                 <div class="about-us-content-row1-img">
                     <center><img src="./about-us-img-2 1 (1).svg" alt=""></center>
-                    
+
                 </div>
 
                 <div class="about-us-content-row1-content">
                     <h2>Our Popular Tour Plans</h2>
-                    <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium. 
+                    <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium.
                         Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium.</p>
                     <div class="progress-bar-row">
                         <div class="progress-bar-container">
                             <div class="progress-bar-vadidation">
-                              <progress id="vadidation" min="0" max="100" value="78" style="visibility:hidden;height:0;width:0;"></progress>
+                                <progress id="vadidation" min="0" max="100" value="78"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
                             </div>
                             <h4>
                                 <label for="vadidation">VADIDATIONS</label>
-                              </h4>
-                          </div>
-                          
-                          <div class="progress-bar-container">
+                            </h4>
+                        </div>
+
+                        <div class="progress-bar-container">
                             <div class="progress-bar-honeymoon">
-                              <progress id="honeymoon" min="0" max="100" value="65" style="visibility:hidden;height:0;width:0;"></progress>
+                                <progress id="honeymoon" min="0" max="100" value="65"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
                             </div>
                             <h2>
                                 <label for="honeymoon">HONEY MOON</label>
-                              </h2>
-                          </div>
-                          
-                          <div class="progress-bar-container">
+                            </h2>
+                        </div>
+
+                        <div class="progress-bar-container">
                             <div class="progress-bar-music">
-                              <progress id="music" min="0" max="100" value="30" style="visibility:hidden;height:0;width:0;"></progress>
+                                <progress id="music" min="0" max="100" value="30"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
                             </div>
                             <h2>
                                 <label for="music">MUSICAL EVENTS</label>
-                              </h2>
-                          </div>
+                            </h2>
+                        </div>
                     </div>
                 </div>
 
-                
+
 
             </div>
 
         </section>
 
 
-        <section class="contact-us">
+        <section class="contact-us" id="contact-us">
             <h2>Contact Us</h2>
             <p>Any question or remarks? Just write us a message!</p>
-            <div class="contact-phone-email " >
-                <div class="contact-phone" >
+            <div class="contact-phone-email ">
+                <div class="contact-phone">
                     <i class="fa fa-phone"></i>
                     <p>+1012 3456 789</p>
                 </div>
@@ -176,23 +182,23 @@
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <p>132 Dartmouth Street Boston, Massachusetts </p>
             </div>
-             
-            <div>
+
+            <form >
                 <div class="input-container">
                     <div class="name-input">
                         <input type="text" id="lastname" required pattern="[A-Za-z]+" title="Vui lòng nhập ký tự chữ">
                         <label class="label-input" for="lastname">Last Name</label>
                         <div class="underline"></div>
                     </div>
-            
-            
+
+
                     <div class="name-input">
                         <input type="text" id="firstname" required pattern="[A-Za-z]+" title="Vui lòng nhập ký tự chữ">
-                        <label class="label-input"  for="firstname">First Name</label>
+                        <label class="label-input" for="firstname">First Name</label>
                         <div class="underline"></div>
                     </div>
                 </div>
-            
+
                 <div class="input-container">
                     <div class="email-input">
                         <input type="email" id="email" required>
@@ -205,15 +211,15 @@
                         <div class="underline"></div>
                     </div>
                 </div>
-            
+
                 <div class="input-container2">
                     <label for="message" id="message-label">Message</label>
                     <textarea id="message" rows="4" required placeholder="Enter your message..."></textarea>
                     <div class="underline"></div>
                 </div>
-            
-                <button id="btn-send">SEND</button>
-            </div>
+
+                <button id="btn-send" type="submit" onclick="sendEmail()" >SEND</button>
+            </form >
         </section>
 
     </div>
@@ -243,6 +249,43 @@
 
         }
     </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+emailjs.init("user_your_emailjs_user_id");
+
+
+function sendEmail() {
+    const firstname = document.getElementById("firstname").value;
+    const lastname = document.getElementById("lastname").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    const templateParams = {
+        from_name: firstname + " " + lastname,
+        email: email,
+        phone: phone,
+        message: message,
+    };
+
+
+    emailjs.send("service_3po5icg", "template_q8sb7jm", templateParams)
+        .then(function (response) {
+            alert("Email đã được gửi thành công!");
+           
+            document.getElementById("contactForm").reset();
+        }, function (error) {
+            alert("Có lỗi xảy ra khi gửi email: " + error);
+        });
+
+ 
+    return false;
+}
+
+document.getElementById("btn-send").addEventListener("click", sendEmail);
+</script>
 
 </body>
 

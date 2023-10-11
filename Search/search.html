@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tìm kiếm địa điểm</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Nhập tên địa điểm">
+    <button onclick="searchDestination()">Tìm kiếm</button>
+    <div id="searchResults"></div>
+
+    <script>
+        const data = [
+            {
+                id_destination: 1,
+                name: "Hạ Long Bay",
+                description: "Hạ Long Bay is a UNESCO World Heritage Site located in Quang Ninh Province, Vietnam.",
+            },
+            {
+                id_destination: 2,
+                name: "Phu Yen",
+                description: "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world.",
+            }
+            // Thêm dữ liệu địa điểm khác nếu cần
+        ];
+
+        function searchDestination() {
+            const searchInput = document.getElementById("searchInput").value.toLowerCase();
+            const searchResults = document.getElementById("searchResults");
+            searchResults.innerHTML = ""; // Xóa kết quả trước đó (nếu có)
+
+            const results = data.filter(destination => destination.name.toLowerCase().includes(searchInput));
+            
+            if (results.length === 0) {
+                searchResults.textContent = "Không có kết quả";
+            } else {
+                results.forEach(destination => {
+                    const destinationElement = document.createElement("div");
+                    destinationElement.innerHTML = `<h3>${destination.name}</h3><p>${destination.description}</p>`;
+                    searchResults.appendChild(destinationElement);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

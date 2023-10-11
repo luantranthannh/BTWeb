@@ -18,38 +18,66 @@
     <div class="container">
 
 
-        <!-- navbar--menu-->
-        <nav>
-            <div class="navbar">
-                <div class="logo"><a href="#"><img src="../image/logo.png" alt=""></a></div>
 
+        <section class="header-navbar">
+            <div class="navbar">
+                <div class="logo"><a href="#"><img src="../image/logo.png" alt="Ảnh logo"></a></div>
+    
                 <ul class="links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Tours</a></li>
-
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="">Log in</a></li>
-
+                    <li><a href="../Tour/Tour.html">Tours</a></li>
+                    <li><a href="../AboutContact/abcontact.html">About us</a></li>
+                    <li><a href="../AboutContact/abcontact.html#contact-us">Contact us</a></li>
                 </ul>
-                <a href="" class="action-btn">Login</a>
-
+                
+                <img src="./" alt="" class="user-pic" onclick="toggleProfile()">
+    
+                <div class="sub-menu-wrap" id="subProfile">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="./user1.png" alt="">
+                            <h2>beautiful</h2>
+                        </div>
+                        <hr>
+    
+                        <a href="" class="sub-menu-links">
+                            <i class="fa fa-user"></i>
+                            <p>Profile</p>
+                            <span> > </span>
+                        </a>
+    
+                       
+    
+    
+                        <a href="" class="sub-menu-links">
+                            <i class="fa fa-sign-out"></i>
+                            <p>Log out</p>
+                            <span> > </span>
+                        </a>
+    
+    
+                    </div>
+                </div>
+                
+    
                 <div class="toggle_btn">
                     <i class="fa fa-bars"></i>
+                    
                 </div>
-
             </div>
-
+    
             <div class="dropdown_menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Destinations</a></li>
+                <li><a href="../Tour/Tour.html">Destinations</a></li>
                 <li><a href="#">Tours</a></li>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Contact us</a></li>   
             </div>
-        </nav>
-
+    
+            
+            
+        </section>
 
         <!-- header  -->
         <header class="flex">
@@ -287,7 +315,15 @@
 
 
     </script>
-    <script src="./homepage.js"></script>
+
+<script>
+    let subProfile = document.getElementById("subProfile");
+    function toggleProfile(){
+        subProfile.classList.toggle("open-profile");
+
+    }
+</script>
+
 
 </body>
 

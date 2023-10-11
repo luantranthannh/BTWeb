@@ -42,178 +42,220 @@
     
     "destinations": [
         {
-            "id": "D1",
-            "name": "Hạ Long Bay",
+            "id": 1,
+            "name": "Ha Long Bay",
             "description": "Hạ Long Bay is a UNESCO World Heritage Site located in Quang Ninh Province, Vietnam.",
-            "image": "halong.jpg",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.dFS7Vb352hwmrkQFL0gpwQHaEt&pid=Api&P=0&h=180",
             "booked": 100
         },
         {
-            "id": "D2",
-            "name": "Angkor Wat",
-            "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world.",
-            "image": "angkor.jpg",
-            "booked": 50
-        },
-        {
-            "id": "D3",
-            "name": "Machu Picchu",
+            "id": 2,
+            "name": "Ban Gioc - Cao Bang",
             "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.pv76lopGAwzOhDR116NcAAHaE8&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+        
+        
+
+        {
+            "id": 3,
+            "name": "Phu Quy ",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.iStM6Xv9RaJPdx-cQaXosAHaFj&pid=Api&P=0&h=180",
             "booked": 75
         },
 
         {
-            "id": "D4",
-            "name": "Machu Picchu",
+            "id": 4,
+            "name": "Hoi An",
             "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.K4tJmz_W7TqLxyQE2x6p9QHaE7&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+
+        {
+            "id": 5,
+            "name": "Dak Nong",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.z-Lvm00Gi28f9OOjF0fIjwHaE8&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+
+        {
+            "id": 6,
+            "name": "Fansipan Legend - Sapa",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.wgJOVCovcc7k4lU2j0w4BwAAAA&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+
+        {
+            "id": 7,
+            "name": "Ganh Da Dia - Phu Yen",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.Zc4e3h5Dvsldzsn7BEOPZwHaFQ&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+
+        {
+            "id": 8,
+            "name": "Tam Coc - Ninh Binh",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.oFLi6BkymquDoUCw1iBL9gHaE8&pid=Api&P=0&h=180",
+            "booked": 75
+        },
+
+        {
+            "id":9,
+            "name": "Truc Lam Bach Ma Zen Monastery",
+            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.mLjdlppi2AlN006bzr4_UgHaEK&pid=Api&P=0&h=180",
             "booked": 75
         }
-        , 
-        {
-            "id": "D5",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D6",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        }, 
-
-        {
-            "id": "D7",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        }, 
 
         
-        {
-            "id": "D8",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        }, 
-        {
-            "id": "D9",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D10",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-        {
-            "id": "D11",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D12",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-        {
-            "id": "D13",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D14",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D15",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D16",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D17",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D18",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-
-        {
-            "id": "D19",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        },
-        {
-            "id": "D20",
-            "name": "Machu Picchu",
-            "description": "Machu Picchu is an Inca citadel located in the Andes Mountains in Peru.",
-            "image": "machu.jpg",
-            "booked": 75
-        }
-     
     ],
     
 
-    "tourdetail": [
+    "details_destination": [
         {
-            "tour_id": "tour001",
-            "tour_name": "Panoramic scene in Ha Long Bay",
-            "destination": "Ha Long Bay, Quang Ninh ",
-            "description": "Ha Long Bay in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests. Ha Long Bay is suitable for enjoying a vacation with family, friends or colleagues. You will discover the majestic and mysterious scenes of Vietnam. Activity: rock climbing and hiking, particularly in mountainous Cat Ba National Park. Vehicle: Kayak",
-            "price_adult": "$500",
-            "price_children": "$250",
-            "rating": "5/5",
-            "image1": "https://media.istockphoto.com/id/119379231/vi/anh/b%C3%A3i-bi%E1%BB%83n-v%E1%BB%8Bnh-h%E1%BA%A1-long-vi%E1%BB%87t-nam.webp?b=1&s=612x612&w=0&k=20&c=VPTSt-iDYftQfq7FE1IUY4EXaSkjdwTjbX3lQVRSjp8=",
-            "image2":"https://cdn.pixabay.com/photo/2016/11/29/04/13/albania-1867264_1280.jpg",
-            "image3":"https://media.istockphoto.com/id/1201281530/vi/anh/phong-c%E1%BA%A3nh-v%E1%BB%8Bnh-h%E1%BA%A1-long.webp?b=1&s=612x612&w=0&k=20&c=aovYQrdp813G5qsLaAYYGL9wmxTLfmXdwx_lMQIIhdY="
+            "id_detail":1,
+            "id_destination":1,
 
+            "name_destination": "Ha Long Bay",
+            "main_name_destination": "Panoramic scene  ",
+            "sub_name_destination":"Beaches, caves and boating surroundings",
+
+            "mainImage":"./img/halong1.jpg",
+            "sub_images": [
+                "./img/halong1.jpg",
+                "./img/halong2.jpg",
+                "./img/halong3.jpg",
+                "./img/halong4.jpg"
+            ],
+            "descriptions_destination": [
+                "Ha Long Bay in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests",
+                "Ha Long Bay is suitable for enjoying a vacation with family, friends or colleagues. You will discover the majestic and mysterious scenes of Vietnam ",
+                "Activity: rock climbing and hiking, particularly in mountainous Cat Ba National Park",
+                "Vehicle: Kayak"
+            ],
+            "highlight_destination": "Top places: Highly rated by recent guests Surrounding: There are hotels, restaurants and cafes around.",
+
+            "adultPrice": 500,
+            "childPrice": 250
+        },
+
+        {
+            "id_detail":2,
+            "id_destination":2,
+
+            "name_destination": "Ban Gioc-Cao Bang",
+            "main_name_destination": "Panoramic scene  ",
+            "sub_name_destination":"Beaches, caves and boating surroundings",
+
+            "mainImage":"./img/bangiocCaobang.jpg",
+            "sub_images": [
+            "./img/bangiocCaobang.jpg",
+                "./img/bangioc2.jpg",
+                "./img/bangioc3.jpg",
+                "./img/bangioc4.jpg"
+            ],
+
+            "descriptions_destination": [
+                "Visitors can explore the ancient ruins, temples, and monuments spread across the vast archaeological site.",
+                "The site is known for its spiritual and historical significance."
+            ],
+            "highlight_destination": "Top places: Highly rated by recent guests Surrounding: There are hotels, restaurants and cafes around.",
+
+            "adultPrice": 500,
+            "childPrice": 250
+        },
+
+
+        {
+            "id_detail":3,
+            "id_destination":3,
+
+            "name_destination": "Bien Binh Thuan",
+            "main_name_destination": "Panoramic scene  ",
+            "sub_name_destination":"Beaches, caves and boating surroundings",
+
+            "mainImage":"./img/bienBinhThuan1.jpg",
+            "sub_images": [
+                "./img/bienBinhThuan1.jpg",
+                "./img/bienBinhThuan2.jpg",
+                "./img/bienBinhThuan3.jpg",
+                "./img/bienBinhThuan4.jpg"
+            ],
+
+            "descriptions_destination": [
+                "Phu Quy, also known as Thu Islet, Khoai Xu Islet, is a small island located about 120 km southeast of Phan Thiet, Binh Thuan. In addition to the main island, around Phu Quy island there are Hon Da Cao, Hon Do, Hon Tranh and Hon Hai. Phu Quy Island's area is just over 18km2 but has enough beautiful scenery, landscapes, experiences... for visitors to explore for a few days.",
+                 "As the most remote island district of Binh Thuan province, Phu Quy island has a wild and beautiful scenery but tourism has not really developed. Currently, the only means to get to the island is by boat from Phan Thiet city, a distance of more than 110 km." 
+
+            ],
+            "highlight_destination": "Top places: Highly rated by recent guests Surrounding: There are hotels, restaurants and cafes around.",
+
+            "adultPrice": 500,
+            "childPrice": 250
+        },
+        {
+            "id_detail":4,
+            "id_destination":4,
+
+            "name_destination": "Hoi An",
+            "main_name_destination": "Panoramic scene  ",
+            "sub_name_destination":"Beaches, caves and boating surroundings",
+
+            "mainImage":"./img/hoiAn1.jpg",
+            "sub_images": [
+                "./img/hoiAn1.jpg",
+                "./img/hoiAn2.jpg",
+                "./img/hoiAn3.jpg",
+                "./img/hoiAn4.jpg"
+            ],
+
+            "descriptions_destination": [
+                "Ha Long Bay in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests",
+                "Ha Long Bay is suitable for enjoying a vacation with family, friends or colleagues. You will discover the majestic and mysterious scenes of Vietnam ",
+                "Activity: rock climbing and hiking, particularly in mountainous Cat Ba National Park",
+                "Vehicle: Kayak"
+            ],
+            "highlight_destination": "Top places: Highly rated by recent guests Surrounding: There are hotels, restaurants and cafes around.",
+
+            "adultPrice": 500,
+            "childPrice": 250
+        },
+        {
+            "id_detail":5,
+            "id_destination":5,
+
+            "name_destination": "Dak Nong",
+            "main_name_destination": "Panoramic scene  ",
+            "sub_name_destination":"Beaches, caves and boating surroundings",
+
+            "mainImage":"./img/thacDakNong1.jpg",
+            "sub_images": [
+                "./img/thacDakNong1.jpg",
+                "./img/thacDakNong2.jpg",
+                "./img/thacDakNong3.jpg",
+                "./img/thacDakNong4.jpg"
+            ],
+
+            "descriptions_destination": [
+                "Ha Long Bay in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests",
+                "Ha Long Bay is suitable for enjoying a vacation with family, friends or colleagues. You will discover the majestic and mysterious scenes of Vietnam ",
+                "Activity: rock climbing and hiking, particularly in mountainous Cat Ba National Park",
+                "Vehicle: Kayak"
+            ],
+            "highlight_destination": "Top places: Highly rated by recent guests Surrounding: There are hotels, restaurants and cafes around.",
+
+            "adultPrice": 500,
+            "childPrice": 250
         }
 
 
+
     ]
+
 }

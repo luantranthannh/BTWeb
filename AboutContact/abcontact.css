@@ -566,3 +566,114 @@ textarea:valid + label + .underline {
     
 }
 
+
+
+/* Responsive cho tablet */
+@media (max-width: 768px) {
+    .about-us-content-row1 {
+        padding: 20px;
+    }
+    
+    .about-us-content-row1-content {
+        text-align: center;
+        flex: 50%;
+    }
+    
+    .progress-bar-container {
+        flex: 1 1 calc(50% - 20px);
+    }
+    
+    .contact-phone-email,
+    .contact-us .contact-address {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .input-container .name-input,
+    .input-container .email-input,
+    .input-container .phone-input,
+    .input-container2 {
+        flex: 1 0 100%;
+    }
+}
+
+/* Responsive cho điện thoại di động */
+@media (max-width: 480px) {
+    .about-us-content-row1 {
+        padding: 10px;
+    }
+    
+    .about-us-content-row1-content{
+              flex: 100%;
+    }
+    .about-us-content-row1-content h2 {
+        font-size: 20px;
+    }
+    
+    .about-us-content-row1-content p {
+        font-size: 14px;
+    }
+    
+    .about-us-content-row1-content button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .about-us-content-row1-img {
+        margin-top: 10px;
+    }
+    
+    .progress-bar-container {
+        flex: 1 0 100%;
+        margin: 10px 0;
+    }
+    
+    .progress-bar-vadidation,
+    .progress-bar-honeymoon,
+    .progress-bar-music {
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+    }
+    
+    .contact-phone-email,
+    .contact-us .contact-address {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .input-container .name-input,
+    .input-container .email-input,
+    .input-container .phone-input,
+    .input-container2 {
+        flex: 1 0 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 14px;
+    }
+    
+    .label-input {
+        font-size: 14px;
+    }
+    
+    #btn-send {
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
